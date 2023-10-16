@@ -54,7 +54,7 @@
 
 #endregion
 
-#region 1.Verilmiş n və m (n<m) ədədləri arasında neçə ədəd olduğunu tapın.
+#region 1.3 Verilmiş n və m (n<m) ədədləri arasında neçə ədəd olduğunu tapın.
 
 int n = int.Parse(Console.ReadLine());
 int m = int.Parse(Console.ReadLine());
