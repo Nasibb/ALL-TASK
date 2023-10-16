@@ -56,14 +56,40 @@
 
 #region 1.3 Verilmiş n və m (n<m) ədədləri arasında neçə ədəd olduğunu tapın.
 
-int n = int.Parse(Console.ReadLine());
-int m = int.Parse(Console.ReadLine());
-int count = 0;
-for (int i = n; i <= m; i++)
-{
-        count++;
-}
-Console.WriteLine(count);
+//int n = int.Parse(Console.ReadLine());
+//int m = int.Parse(Console.ReadLine());
+//int count = 0;
+//for (int i = n; i <= m; i++)
+//{
+//        count++;
+//}
+//Console.WriteLine(count);
+
+#endregion
+
+#region 1.4 Verilmiş n və m (n<m) ədədləri arasında tək ədədlərin sayı ilə cüt ədədlərinin hasilini tapın.
+
+//int n=int.Parse(Console.ReadLine());
+//int m=int.Parse(Console.ReadLine());
+//int count = 0;
+//int multi = 1;
+//if (n>m)
+//{
+//    Console.WriteLine("duzgun eded daxil edin");
+//}
+//if (n<m)
+//{
+//    for (int i = n; i <= m;i++)
+//        if (i%2==1)
+//        {
+//            count++;
+//        }
+//    else if (i%2==0) 
+//        {
+//            multi *= i;
+//        }
+//    Console.WriteLine(count+multi);
+//}
 
 #endregion
 
