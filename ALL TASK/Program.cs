@@ -93,7 +93,7 @@
 
 #endregion
 
-#region 2. Verilmiş n tam ədədinin sadə və ya mürəkkəb ədəd olduğunu tapın.
+#region 2. Verilmiş n tam ədədinin sadə və ya mürəkkəb ədəd olduğunu tapın. (2 code)
 
 //int n = int.Parse(Console.ReadLine());
 //int count = 0;
@@ -119,5 +119,30 @@
 //}
 //}
 
+int n = int.Parse(Console.ReadLine());
+int count = 0;
+for(int i=1;i<=n;i++)
+{
+    if (n % i == 0)
+    {
+        count++;
+        if (count > 2)
+        {
+            break;
+        }
+    }     
+}
+if (count>2)
+{
+    Console.WriteLine("murekkeb...");
+}
+else
+{
+    Console.WriteLine("sade...");
+}
+
 #endregion
 
+#region MyRegion
+
+#endregion
