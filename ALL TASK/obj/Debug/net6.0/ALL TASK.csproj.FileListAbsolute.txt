@@ -26,3 +26,17 @@ C:\Users\ASUS\Desktop\ALL-TASK\ALL TASK\bin\Debug\net6.0\ALL TASK.dll
 C:\Users\ASUS\Desktop\ALL-TASK\ALL TASK\bin\Debug\net6.0\ALL TASK.pdb
 C:\Users\ASUS\Desktop\ALL-TASK\ALL TASK\obj\Debug\net6.0\ALL TASK.genruntimeconfig.cache
 C:\Users\ASUS\Desktop\ALL-TASK\ALL TASK\obj\Debug\net6.0\ref\ALL TASK.dll
+C:\Users\nasib.ixtiyarli\Desktop\ALL-TASK\ALL TASK\bin\Debug\net6.0\ALL TASK.exe
+C:\Users\nasib.ixtiyarli\Desktop\ALL-TASK\ALL TASK\bin\Debug\net6.0\ALL TASK.deps.json
+C:\Users\nasib.ixtiyarli\Desktop\ALL-TASK\ALL TASK\bin\Debug\net6.0\ALL TASK.runtimeconfig.json
+C:\Users\nasib.ixtiyarli\Desktop\ALL-TASK\ALL TASK\bin\Debug\net6.0\ALL TASK.dll
+C:\Users\nasib.ixtiyarli\Desktop\ALL-TASK\ALL TASK\bin\Debug\net6.0\ALL TASK.pdb
+C:\Users\nasib.ixtiyarli\Desktop\ALL-TASK\ALL TASK\obj\Debug\net6.0\ALL TASK.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nasib.ixtiyarli\Desktop\ALL-TASK\ALL TASK\obj\Debug\net6.0\ALL TASK.AssemblyInfoInputs.cache
+C:\Users\nasib.ixtiyarli\Desktop\ALL-TASK\ALL TASK\obj\Debug\net6.0\ALL TASK.AssemblyInfo.cs
+C:\Users\nasib.ixtiyarli\Desktop\ALL-TASK\ALL TASK\obj\Debug\net6.0\ALL TASK.csproj.CoreCompileInputs.cache
+C:\Users\nasib.ixtiyarli\Desktop\ALL-TASK\ALL TASK\obj\Debug\net6.0\ALL TASK.dll
+C:\Users\nasib.ixtiyarli\Desktop\ALL-TASK\ALL TASK\obj\Debug\net6.0\refint\ALL TASK.dll
+C:\Users\nasib.ixtiyarli\Desktop\ALL-TASK\ALL TASK\obj\Debug\net6.0\ALL TASK.pdb
+C:\Users\nasib.ixtiyarli\Desktop\ALL-TASK\ALL TASK\obj\Debug\net6.0\ALL TASK.genruntimeconfig.cache
+C:\Users\nasib.ixtiyarli\Desktop\ALL-TASK\ALL TASK\obj\Debug\net6.0\ref\ALL TASK.dll

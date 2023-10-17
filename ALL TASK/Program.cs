@@ -5,7 +5,7 @@
 //int count = 0;
 //for (int i = n; i <= m; i++)
 //{
-//    if (i %2 == 1)
+//    if (i % 2 == 1)
 //    {
 //        count++;
 //    }
@@ -61,7 +61,7 @@
 //int count = 0;
 //for (int i = n; i <= m; i++)
 //{
-//        count++;
+//    count++;
 //}
 //Console.WriteLine(count);
 
@@ -93,4 +93,31 @@
 
 #endregion
 
+#region 2. Verilmiş n tam ədədinin sadə və ya mürəkkəb ədəd olduğunu tapın.
+
+//int n = int.Parse(Console.ReadLine());
+//int count = 0;
+
+//if (n==0 || n==1)
+//{
+//    Console.WriteLine("diger eded daxil edin..");
+//}
+//else if (n > 1)
+//{
+//for (int i = 1; i <= n; i++)
+//    {
+//        if (n%i==0)
+//        count++;
+//    }
+//if (count >2)
+//{
+//    Console.WriteLine("murekkeb");
+//}
+//else
+//{
+//    Console.WriteLine("sade");
+//}
+//}
+
+#endregion
 
