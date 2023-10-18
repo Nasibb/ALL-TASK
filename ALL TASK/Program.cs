@@ -119,30 +119,45 @@
 //}
 //}
 
-int n = int.Parse(Console.ReadLine());
-int count = 0;
-for(int i=1;i<=n;i++)
-{
-    if (n % i == 0)
-    {
-        count++;
-        if (count > 2)
-        {
-            break;
-        }
-    }     
-}
-if (count>2)
-{
-    Console.WriteLine("murekkeb...");
-}
-else
-{
-    Console.WriteLine("sade...");
-}
+//int n = int.Parse(Console.ReadLine());
+//int count = 0;
+//for(int i=1;i<=n;i++)
+//{
+//    if (n % i == 0)
+//    {
+//        count++;
+//        if (count > 2)
+//        {
+//            break;
+//        }
+//    }     
+//}
+//if (count>2)
+//{
+//    Console.WriteLine("murekkeb...");
+//}
+//else
+//{
+//    Console.WriteLine("sade...");
+//}
 
 #endregion
 
-#region 3. TASK
-//int num = 555;
+#region 3.Verilmiş müsbət tam n ədədinin 2-nin qüvvəti olub-olmamasını tapın.
+
+int n=int.Parse(Console.ReadLine());
+int result = 0;
+while (n %2 == 0)
+{
+    n = n / 2;
+}
+if (n == 0)
+{
+    Console.WriteLine("2-nin quvvetidir");
+}
+else if (n == 1)
+{
+    Console.WriteLine("deyil..");
+}
+
 #endregion
