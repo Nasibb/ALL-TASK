@@ -146,16 +146,15 @@
 #region 3.Verilmiş müsbət tam n ədədinin 2-nin qüvvəti olub-olmamasını tapın.
 
 int n=int.Parse(Console.ReadLine());
-int result = 0;
-while (n %2 == 0)
+while (n % 2 == 0)
 {
-    n = n / 2;
+    n /= 2;
 }
-if (n == 0)
+if (n == 1)
 {
     Console.WriteLine("2-nin quvvetidir");
 }
-else if (n == 1)
+else
 {
     Console.WriteLine("deyil..");
 }
