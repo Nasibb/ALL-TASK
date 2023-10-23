@@ -174,3 +174,33 @@
 //Console.WriteLine(count);
 
 #endregion
+
+#region C#
+//switch
+//int day = int.Parse(Console.ReadLine());
+//switch (day)
+//{
+//	case 1:
+//        Console.WriteLine("1-ci gun");
+//        break;
+//    case 2:
+//        Console.WriteLine("2-ci gun");
+//        break;
+//    default:
+//        Console.WriteLine("diger");
+//		break;
+//};
+
+
+//switch expression
+//int day =int.Parse(Console.ReadLine());
+//string result = day switch
+//{
+//    1 => "1-ci gun",
+//    2 => "2-ci gun",
+//    _ => "diger",
+//};
+//Console.WriteLine(result);
+
+
+#endregion
