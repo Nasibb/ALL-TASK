@@ -204,3 +204,80 @@
 
 
 #endregion
+
+
+#region Massive - FOR/FOREACH 
+//string[] cars = { "bmw", "mercedec", "hyundai", "volvo", "mazda", "hyundai" };
+//Console.WriteLine(cars[0]);
+//Console.WriteLine(cars[cars.Length-1]); 
+//Console.WriteLine(cars);
+//Console.WriteLine(cars.Length);
+
+
+//Massive - FOR / FOREACH
+string[] cars = { "bmw", "mercedec", "hyundai", "volvo", "mazda", "hundai" };
+//for (int i = 0; i < cars.Length; i++)
+//{
+//    Console.WriteLine(cars[2]);
+//}
+foreach (string car in cars)
+{
+    if (car == "vaz")
+    {
+        Console.WriteLine("tapildi");
+        break;
+    }
+    else
+    {
+        Console.WriteLine("tapilmadi");
+    }
+}
+
+
+
+//int[] numbers = { 29, 1, 5, 19, 123 };
+//for (int i = 0; i < numbers.Length; i++)
+//    {
+//    Console.WriteLine(numbers[i]);
+//    }
+
+//for (int i = 0; i < numbers.Length; i++)
+//{
+//    Console.WriteLine(numbers[0]);
+//}
+
+//for (int i = 0; i < numbers.Length; i++)
+//{
+//    if (i==19);
+//    Console.WriteLine(numbers[i]);
+//}
+
+
+#endregion
+
+#region Lab2-Masivve
+//Arrayin icerisinde yazilan data varsa tapildi(1defe) yoxdusa tapilmadi(1defe) yazilsin.
+
+//string[] names = { "lorem", "doler", "ipsum", "doler" };
+//string name = Console.ReadLine();
+//foreach(string z in names)
+//{
+//    Console.WriteLine("tapildi");
+//}
+//Console.WriteLine("tapilmadi");
+
+#endregion Array
+
+#region Lab3-
+//Massivde verilen ardicilligin yeri tersden yazilsin ekrana 4,5,6 massivinde ekrana 6,5,4 kimi cixsin.
+#endregion
+
+//defter
+//string[] cars =  { "mazda", "kia", "vaz" };
+//cars = new [] { "ma", "ki", "va" };
+//cars = { "mazda", "kia", "vaz" };
+//Console.WriteLine(cars[2]);
+//for (int index = 0; index < cars.Length; index++)
+//{
+//    Console.WriteLine(cars[index]);
+//}
