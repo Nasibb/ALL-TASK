@@ -218,14 +218,14 @@
 string[] cars = { "bmw", "mercedec", "hyundai", "volvo", "mazda", "hundai" };
 //for (int i = 0; i < cars.Length; i++)
 //{
-//    Console.WriteLine(cars[2]);
+//    Console.WriteLine(cars[i]);
 //}
+//bool = true;
 foreach (string car in cars)
 {
-    if (car == "vaz")
+    if (car == "volvo")
     {
-        Console.WriteLine("tapildi");
-        break;
+        Console.WriteLine("volvo");
     }
     else
     {
@@ -246,12 +246,19 @@ foreach (string car in cars)
 //    Console.WriteLine(numbers[0]);
 //}
 
+
 //for (int i = 0; i < numbers.Length; i++)
 //{
-//    if (i==19);
+//    if (i == 19) ;
 //    Console.WriteLine(numbers[i]);
 //}
 
+
+//foreach (int i in numbers)
+//{
+//    if (i == 29)
+//    { Console.WriteLine(i); }
+//}
 
 #endregion
 
