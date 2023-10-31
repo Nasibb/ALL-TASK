@@ -1,4 +1,5 @@
-﻿#region 1.Verilmiş n və m (n<m) ədədləri arasında neçə tək ədəd olduğunu tapın.
+﻿
+#region 1.Verilmiş n və m (n<m) ədədləri arasında neçə tək ədəd olduğunu tapın.
 
 //int n = int.Parse(Console.ReadLine());
 //int m = int.Parse(Console.ReadLine());
@@ -205,8 +206,44 @@
 
 #endregion
 
+#region LabTasks
+//Taks1 Massivide verilen ardicilligin yeri terseden yazin ekrana.
+//int[] numbers = { 29, 2, 30, 123 };
+//for (int i = numbers.Length - 1; i >= 0; i--)
+//{
+//    Console.WriteLine(numbers[i]);
+//}
 
-#region Massive - FOR/FOREACH 
+
+//Task2 Verilen input ad massivindeki adlarin icinde  varsa ekrana tapildi yoxdusa tapilmadi yazilsin. (1defe???)
+//Console.WriteLine("Adi daxil edin:");
+//string findName = Console.ReadLine();
+//Console.WriteLine("Netice:");
+//string[] names = { "Nadir", "Shaiq", "Islam", "Teymur" };
+//foreach (string name in names)
+//{
+//    if (findName==name)
+//    { Console.WriteLine("tapildi"); }
+
+//    else
+//    { Console.WriteLine("tapilmadi"); }
+
+//}
+
+
+//Task3 Verilen inputun icerisinde a herfi nece dene i herfi nece dene var.
+//string name = "lailahiillallah";
+string[] name = { "Nasib", "Nadir" };
+for (int i = 0; i <= name.Length - 1; i++)
+{
+    Console.WriteLine(name[i]);
+}
+
+
+#endregion
+
+
+#region Massive - FOR/FOREACH -Practice 
 //string[] cars = { "bmw", "mercedec", "hyundai", "volvo", "mazda", "hyundai" };
 //Console.WriteLine(cars[0]);
 //Console.WriteLine(cars[cars.Length-1]); 
@@ -215,23 +252,23 @@
 
 
 //Massive - FOR / FOREACH
-string[] cars = { "bmw", "mercedec", "hyundai", "volvo", "mazda", "hundai" };
+//string[] cars = { "bmw", "mercedec", "hyundai", "volvo", "mazda", "hundai" };
 //for (int i = 0; i < cars.Length; i++)
 //{
 //    Console.WriteLine(cars[i]);
 //}
 //bool = true;
-foreach (string car in cars)
-{
-    if (car == "volvo")
-    {
-        Console.WriteLine("volvo");
-    }
-    else
-    {
-        Console.WriteLine("tapilmadi");
-    }
-}
+//foreach (string car in cars)
+//{
+//    if (car == "volvo")
+//    {
+//        Console.WriteLine("volvo");
+//    }
+//    else
+//    {
+//        Console.WriteLine("tapilmadi");
+//    }
+//}
 
 
 
@@ -262,29 +299,18 @@ foreach (string car in cars)
 
 #endregion
 
-#region Lab2-Masivve
-//Arrayin icerisinde yazilan data varsa tapildi(1defe) yoxdusa tapilmadi(1defe) yazilsin.
+#region Methods
 
-//string[] names = { "lorem", "doler", "ipsum", "doler" };
-//string name = Console.ReadLine();
-//foreach(string z in names)
+//int FamilyAges(int FatherAge, int MotherAge, int BrotherAge, int MyAge)
 //{
-//    Console.WriteLine("tapildi");
+//    return FatherAge + MotherAge + BrotherAge+ MyAge;
 //}
-//Console.WriteLine("tapilmadi");
+//Console.WriteLine(FamilyAges(63,59,32,30));
 
-#endregion Array
+//string FamilyNames (string FatherName,string MotherName,string BroName, string MyName)
+//{
+//    return FatherName+" "+MotherName+" "+BroName+" "+MyName;
+//}
+//Console.WriteLine(FamilyNames("Qabil","Gulnara", "Aqil", "Nasib"));
 
-#region Lab3-
-//Massivde verilen ardicilligin yeri tersden yazilsin ekrana 4,5,6 massivinde ekrana 6,5,4 kimi cixsin.
 #endregion
-
-//defter
-//string[] cars =  { "mazda", "kia", "vaz" };
-//cars = new [] { "ma", "ki", "va" };
-//cars = { "mazda", "kia", "vaz" };
-//Console.WriteLine(cars[2]);
-//for (int index = 0; index < cars.Length; index++)
-//{
-//    Console.WriteLine(cars[index]);
-//}
