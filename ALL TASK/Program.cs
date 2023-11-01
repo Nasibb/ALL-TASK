@@ -17,12 +17,12 @@
 
 #region 1.1 Verilmiş n və m (n<m) ədədləri arasındakı cüt ədədlərin cəmini tapın.
 
-//int n=int.Parse(Console.ReadLine());
-//int m=int.Parse(Console.ReadLine());
+//int n = int.Parse(Console.ReadLine());
+//int m = int.Parse(Console.ReadLine());
 //int sum = 0;
-//for(int i=n;i<=m;i++)
+//for (int i = n; i <= m; i++)
 //{
-//    if(i%2==0)
+//    if (i % 2 == 0)
 //    {
 //        sum += i;
 //    }
@@ -232,12 +232,24 @@
 
 
 //Task3 Verilen inputun icerisinde a herfi nece dene i herfi nece dene var.
+
 //string name = "lailahiillallah";
-string[] name = { "Nasib", "Nadir" };
-for (int i = 0; i <= name.Length - 1; i++)
-{
-    Console.WriteLine(name[i]);
-}
+//int Acount = default;
+//int Icount = default;
+//for (int z = 0; z <= name.Length - 1; z++)
+//{
+//	if (name[z]=='a')
+//	{
+//		Acount++;
+//	}
+//	else if (name[z] =='i')
+//	{
+//		Icount++;
+//	}
+//}
+//Console.WriteLine($"A herfinin sayi:  {Acount}");
+//Console.WriteLine($"I herfinin sayi: {Icount}");
+
 
 
 #endregion
